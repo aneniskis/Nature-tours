@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* body,
+body * {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+} */
+html {
+  /* font-size: 10px; procentais padarem 10 px ir lengviau remais verstis bus */
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
