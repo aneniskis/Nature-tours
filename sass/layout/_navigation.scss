@@ -101,7 +101,7 @@
   }
   // functionality
   &__checkbox:checked ~ &__background {
-    transform: scale(65);
+    transform: scale(80);
   }
   &__checkbox:checked ~ &__nav {
     opacity: 1;

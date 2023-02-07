@@ -6,29 +6,29 @@
   box-sizing: inherit;
 }
 
-/* body,
-body * {
-  margin: 0;
-  padding: 0;
-  vertical-align: top;
-  box-sizing: border-box;
-} */
+// /* body,
+// body * {
+//   margin: 0;
+//   padding: 0;
+//   vertical-align: top;
+//   box-sizing: border-box;
+// }
 html {
   /* font-size: 10px; procentais padarem 10 px ir lengviau remais verstis bus */
   font-size: 62.5%; // 1rem  = 10px 10px/16px= 62.5%
 
-  // @include respond-phone {
-  //   font-size: 50%;
-  // }
-  @include respond(big-desktop) {
-    font-size: 75%; // 1rem = 12   12/16
-  }
-  @include respond(tab-land) {
-    font-size: 56.25%; // 1rem = 9 9/16= 56.25%
-  }
-  @include respond(tab-port) {
-    font-size: 50%; // 1rem = 8px 8/16= 50%
-  }
+  //   @include respond-phone {
+  //     font-size: 50%;
+  //   }
+  //   @include respond(big-desktop) {
+  //     font-size: 75%; // 1rem = 12   12/16
+  //   }
+  //   @include respond(tab-land) {
+  //     font-size: 56.25%; // 1rem = 9 9/16= 56.25%
+  //   }
+  //   @include respond(tab-port) {
+  //     font-size: 50%; // 1rem = 8px 8/16= 50%
+  //   }
 }
 
 body {
@@ -38,4 +38,9 @@ body {
   @include respond(tab-port) {
     padding: 0;
   }
+}
+
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
 }
